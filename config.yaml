@@ -1,0 +1,10 @@
+listen: :5000
+server_well_known: alias.seagl.org:443
+homeserver_url: https://matrix.seattlematrix.org
+cache_ttl: 3600
+
+aliases:
+  "#SeaGL:seagl.org": "#SeaGL:seattlematrix.org"
+
+patterns:
+  "^#(.+):seagl.org$": "#SeaGL-$1:seattlematrix.org"
