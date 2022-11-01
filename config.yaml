@@ -7,4 +7,5 @@ aliases:
   "#SeaGL:seagl.org": "#SeaGL:seattlematrix.org"
 
 patterns:
+  "^#(\\d{4}(?:-.+)?):seagl.org$": "#SeaGL$1:seattlematrix.org"
   "^#(.+):seagl.org$": "#SeaGL-$1:seattlematrix.org"
