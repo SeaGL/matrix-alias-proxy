@@ -1,0 +1,14 @@
+{
+  "healthchecks": {
+    "web": [
+      {
+        "type": "startup",
+        "path": "/.well-known/matrix/server"
+      },
+      {
+        "type": "startup",
+        "path": "/_matrix/federation/v1/query/directory?room_alias=%23SeaGL:seagl.org"
+      }
+    ]
+  }
+}
