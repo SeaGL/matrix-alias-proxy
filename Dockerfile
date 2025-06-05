@@ -1,4 +1,4 @@
-FROM dock.mau.dev/tulir/mauliasproxy@sha256:daa029519fd378e0263f00dbd0ef9cbc2fcc5bd1f4c0c586f9dfa75fe0faed3f
+FROM dock.mau.dev/tulir/mauliasproxy@sha256:5aa3a1a54fe13f2198ed30b698f3140f444326bd73d82ac34353f64db531cee1
 
 COPY app.json .
 COPY config.yaml /data/
